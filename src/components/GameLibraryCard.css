@@ -1,0 +1,72 @@
+.game-card {
+  background-color: #1f4068;
+  border-radius: 10px;
+  padding: 15px 20px;
+  opacity: 0.9;
+  transition: opacity 0.5s;
+  /* width: 250px; */
+}
+
+.game-card:hover {
+  opacity: 1;
+}
+
+.game-card-header-title {
+  color: white;
+  line-height: 32px;
+  font-size: 1.75rem;
+}
+
+.personal-time-input {
+  color: white;
+  background-color: #162447;
+  border: 0px;
+  border-radius: 10%;
+}
+
+.personal-time-input::placeholder {
+  color: white;
+}
+
+.personal-time-input:focus {
+  outline: none !important;
+  border: 0px;
+  box-shadow: none;
+}
+
+.game-image {
+  margin-top: 10px;
+  width: 200px;
+}
+
+.game-image > img {
+  object-fit: cover;
+}
+
+.game-list {
+  padding: 5px;
+}
+
+.game-list-item-title {
+  color: #e43f5a;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.game-list-item-content {
+  margin-left: 15px;
+  color: white;
+}
+
+.game-delete-btn {
+  float: right;
+}
+
+@media only screen and (max-width: 1000px) {
+  .game-card-header-title {
+    color: white;
+    line-height: 28px;
+    font-size: 1.25rem;
+  }
+}

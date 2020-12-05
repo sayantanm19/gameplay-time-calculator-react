@@ -1,0 +1,41 @@
+.clear-btn > button {
+  font-size: 1.2rem;
+}
+
+.selected-text {
+  margin: 20px 5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e43f5a;
+  font-size: 2rem;
+
+  /* Fix Clear All Button */
+  clear: both;
+}
+
+.total-playtime {
+  color: white;
+  text-align: center;
+  margin: 20px 5px;
+  font-size: 2rem;
+}
+
+.clear-btn {
+  margin: 25px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .selected-text {
+    margin: 15px 5px;
+    font-size: 1.25rem;
+  }
+
+  .total-playtime {
+    margin: 15px 10px;
+    font-size: 1.25rem;
+  }
+
+  .clear-btn > button {
+    font-size: 0.75rem;
+  }
+}

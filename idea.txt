@@ -1,0 +1,7 @@
+- features
+  - search for game to add
+  - display all added games
+  - store to localhost
+  - calculate the total playtime
+  - edit/delete from localstorage
+  - animations???
